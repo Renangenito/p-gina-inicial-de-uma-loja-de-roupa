@@ -1,0 +1,112 @@
+.fundo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    
+}
+
+.principal{
+    margin-top: 50px;
+    width: 80%;
+    height: 700px;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    display: inline-block;
+    
+}
+
+.icone-texto{
+    display: inline-block;
+    width: 306px;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 0%;
+}
+
+.icone{
+    width: 158px;
+    height: 33px;
+}
+
+.titulo-principal{
+    width: 306px;
+    color: #F8BFBF;
+    margin-top: 130px;
+    margin-bottom: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+.titulo-secundario{
+    width: 306px;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
+.titulo-terciario{
+    width: 306px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    margin: 0%;
+    
+}
+
+.texto-principal{
+    width: 306px;
+    font-size: 15px;
+    color: #F8BFBF;
+}
+
+.email{
+    background-color: #eeeeee;
+    width: 300px;
+	height: 35px;
+    margin-top: 30px;
+    border-width: 1px;
+	border-radius: 25px;
+	-moz-border-radius: 20px;
+    border-color: #F8BFBF;
+    
+}
+
+.botao:hover{
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #e4acac;
+}
+.botao:active{
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #F8BFBF;
+}
+.botao{
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #F8BFBF;
+}
+
+.imagem{
+    height: 700px;
+    margin-left: 100px;
+    position: absolute;
+    right: 170px;
+}
+
+.email::placeholder {
+    padding-left: 20px;
+    color: #F8BFBF;
+}
+#erro{
+    color: brown;
+    margin: 0%;
+}

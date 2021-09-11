@@ -110,3 +110,42 @@
     color: brown;
     margin: 0%;
 }
+.mobile-imagem{
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .principal {
+        margin: 0%;
+        background-color: rgb(238, 238, 238);
+    }
+
+    .titulo-principal{
+        margin-top: 25px;
+    }
+    .icone-texto{
+        margin: 0%;
+    }
+    .icone{
+        margin: 25px 0 25px 25px;
+       
+    }
+    .desktop-imagem{
+        display: none;
+    }
+   .mobile-imagem{
+        display: inline-block;
+     margin: 0%;
+   }
+   .fundo{
+       display: inline-block;
+       background-color: #fffafa;
+   }
+   .texto-principal, .titulo-principal, .titulo-secundario, .titulo-terciario, .botao, .email{
+       margin-left: 15px;
+   }
+   .botao{
+       margin-bottom: 25px;
+   }
+    
+}
